@@ -6,5 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./moment-form.component.css']
 })
 export class MomentFormComponent {
-
+  @Input() btnText!: string;
 }
